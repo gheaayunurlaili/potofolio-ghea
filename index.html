@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghea Ayu Nurlaili — Student &amp; Aspiring Web Developer</title>
+  <meta name="description"
+    content="Portofolio Ghea Ayu Nurlaili, siswa SMK Negeri 2 Mojokerto dan calon web developer. A quiet soul with a curious mind.">
+  <meta name="theme-color" content="#fbb6ce">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ghea Ayu Nurlaili — Portfolio">
+  <meta property="og:description"
+    content="A quiet soul with a curious mind. Portofolio web development Ghea Ayu Nurlaili.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Ghea Ayu Nurlaili — Portfolio">
+  <meta name="twitter:description" content="A quiet soul with a curious mind.">
+  <link rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23a3124f' d='M50 4l12 32h34L68 56l10 36-28-21-28 21 10-36L4 36h34z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Nunito:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Lewati ke konten</a>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <a class="brand script" href="#home">Ghea</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu"
+      aria-label="Buka menu"><span></span><span></span><span></span></button>
+    <nav id="menu" aria-label="Navigasi utama">
+      <a href="#home">Home</a><a href="#about">About Me</a><a href="#projects">Projects</a><a
+        href="#skills">Skills</a><a href="#contact">Contact</a>
+      <button class="theme" id="theme" aria-label="Ganti tema terang/gelap">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero stripes">
+      <span class="deco star s1" aria-hidden="true"></span><span class="deco button b1" aria-hidden="true"></span>
+      <div class="hero-text">
+        <p class="pill">Portfolio · Web Development</p>
+        <h1 class="script">Ghea Ayu<br>Nurlaili</h1>
+        <p class="tape">Student &amp; Aspiring Web Developer</p>
+        <p class="tagline">“A quiet soul with a curious mind.”</p>
+        <p>Halo, aku Ghea dari Mojokerto. Aku belajar membangun website sambil terus mengamati hal-hal kecil di sekitar
+          yang bikin aku penasaran.</p>
+        <div class="btns"><a class="btn" href="#projects">Explore My Work</a><a class="btn ghost"
+            href="#contact">Contact Me</a></div>
+      </div>
+      <figure class="polaroid">
+        <span class="clip" aria-hidden="true"></span>
+        <!-- EDIT: Ganti images/foto-profil.jpg dengan foto asli -->
+        <img src="images/foto-profil.jpg" alt="Foto Ghea Ayu Nurlaili" width="400" height="600">
+        <figcaption class="script">Ghea Ayu</figcaption>
+      </figure>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="sec">
+      <h2 class="script">About me</h2>
+      <div class="about">
+        <div class="collage">
+          <!-- EDIT: Tambah images/about-bunga.jpg dan images/about-travel.jpg (foto sendiri / gambar dekoratif). Jika belum ada, placeholder tampil. -->
+          <figure class="ph tilt-l"><img src="images/about-bunga.jpg" alt="Bunga" onerror="this.remove()">
+            <figcaption>🌸 bunga</figcaption>
+          </figure>
+          <figure class="ph tilt-r"><img src="images/about-travel.jpg" alt="Suasana perjalanan" onerror="this.remove()">
+            <figcaption>✈️ traveling</figcaption>
+          </figure>
+          <span class="deco star s2" aria-hidden="true"></span>
+        </div>
+        <div class="card paper">
+          <p>Aku Ghea, orangnya pendiam dan lebih suka mengamati dulu sebelum bicara. Dari situ aku sering menemukan hal
+            kecil yang menarik: warna langit sore, cara orang tertawa, atau bunga yang tumbuh di pinggir jalan.</p>
+          <p>Aku suka menggambar, menulis, memasak, dan belajar bahasa asing. Musik dan suasana hujan hampir selalu
+            menemani, apalagi kalau aku sedang berada di tempat yang tenang.</p>
+          <p>Sekarang aku belajar web development di SMK Negeri 2 Mojokerto. Salah satu impianku adalah menjelajahi
+            berbagai belahan dunia untuk mengenal tempat, budaya, dan pengalaman baru.</p>
+          <ul class="chips" aria-label="Hal yang kusuka">
+            <li>🎨 Menggambar</li>
+            <li>✍️ Menulis</li>
+            <li>🍳 Memasak</li>
+            <li>🌍 Bahasa asing</li>
+            <li>🎧 Musik</li>
+            <li>🌧️ Hujan</li>
+            <li>🌷 Bunga</li>
+            <li>🧳 Traveling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="sec stripes-soft">
+      <h2 class="script">Design showcase</h2>
+      <p class="lead">Dua karya yang kubuat saat belajar.</p>
+      <div class="grid2">
+        <article class="card proj">
+          <figure class="shot">
+            <!-- EDIT: Taruh screenshot asli di images/si-laundry.png -->
+            <img src="images/si-laundry.png" alt="Screenshot website SI Laundry" onerror="this.remove()">
+            <span class="empty">Screenshot SI Laundry<br><small>images/si-laundry.png</small></span>
+          </figure>
+          <h3>SI Laundry</h3>
+          <p>Website pengelolaan layanan laundry yang dibuat sebagai bagian dari pembelajaran bersama guru tamu. Project
+            ini dikembangkan menggunakan Laravel dengan menerapkan materi yang telah dipelajari.</p>
+          <ul class="chips small">
+            <li>Laravel</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+          <!-- EDIT: Tambahkan tombol Live Demo / GitHub di sini hanya jika tautannya sudah ada -->
+        </article>
+        <article class="card proj">
+          <figure class="shot">
+            <!-- EDIT: Taruh screenshot asli di images/rental-ff.png -->
+            <img src="images/rental-ff.png" alt="Screenshot website Rental Akun FF" onerror="this.remove()">
+            <span class="empty">Screenshot Rental Akun FF<br><small>images/rental-ff.png</small></span>
+          </figure>
+          <h3>Rental Akun FF</h3>
+          <p>Website rental akun Free Fire yang saya kembangkan sendiri sebagai project pribadi.</p>
+          <!-- EDIT: Isi teknologi yang benar-benar dipakai -->
+          <ul class="chips small">
+            <li>Teknologi: segera diisi</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="sec">
+      <h2 class="script">Skills &amp; tools</h2>
+      <ul class="grid3 skills">
+        <li class="card">HTML<small>Struktur halaman</small></li>
+        <li class="card">CSS<small>Tampilan &amp; layout</small></li>
+        <li class="card">JavaScript<small>Interaksi</small></li>
+        <li class="card">PHP<small>Sisi server</small></li>
+        <li class="card">Laravel<small>Framework PHP</small></li>
+        <li class="card">MySQL<small>Database</small></li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="sec stripes-soft">
+      <h2 class="script">Education</h2>
+      <article class="card paper edu">
+        <h3>SMK Negeri 2 Mojokerto</h3>
+        <!-- EDIT: Ganti tahun dan jurusan dengan data asli -->
+        <p>Tahun: <mark>20XX – 20XX</mark></p>
+        <p>Bidang: Web Development</p>
+      </article>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="sec stripes contact">
+      <h2 class="script">Thank you</h2>
+      <p class="lead">Terima kasih sudah mampir. Kalau ada yang ingin ditanyakan atau diobrolkan, aku senang sekali
+        mendengarnya.</p>
+      <!-- EDIT: Ganti href="#contact" dengan mailto:emailkamu@... / https://instagram.com/usernamekamu / https://github.com/usernamekamu lalu hapus aria-disabled dan teks "(segera diisi)" -->
+      <ul class="links">
+        <li>
+          <a class="btn" href="mailto:lelliayunur@gmail.com">Email</a>
+        </li>
+
+        <li>
+          <a class="btn" href="https://www.instagram.com/ghea.anl/" target="_blank"
+            rel="noopener noreferrer">Instagram</a>
+        </li>
+
+        <li>
+          <a class="btn" href="https://github.com/gheaayunurlaili" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+      </ul>
+      <p>📍 Mojokerto, Indonesia</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <p>© <span id="year">2026</span> Ghea Ayu Nurlaili</p>
+    <p><a href="#home">Home</a> · <a href="#about">About</a> · <a href="#projects">Projects</a> · <a
+        href="#contact">Contact</a></p>
+  </footer>
+  <button class="totop" id="totop" aria-label="Kembali ke atas" hidden>↑</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
